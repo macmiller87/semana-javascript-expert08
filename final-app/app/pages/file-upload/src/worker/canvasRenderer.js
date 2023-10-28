@@ -36,6 +36,7 @@ export default class CanvasRenderer {
                 renderer.draw(pendingFrame)
                 pendingFrame = null
             }
+            
             if(!pendingFrame) {
                 requestAnimationFrame(rendererAnimationFrame)
             }else {

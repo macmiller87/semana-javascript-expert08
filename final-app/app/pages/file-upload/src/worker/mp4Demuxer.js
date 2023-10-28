@@ -1,4 +1,4 @@
-import { createFile, DataStream } from '../deps/mp4box.0.5.2.js'
+import { createFile, DataStream } from '../../../../../../aula02-encode-144p-upload/app/pages/file-upload/src/deps/mp4box.0.5.2.js'
 
 export default class Mp4Demuxer {
 
